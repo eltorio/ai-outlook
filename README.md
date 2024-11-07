@@ -45,8 +45,7 @@ The AI Outlook Add-in enhances your email workflow by providing AI-powered assis
 
 **Project Repository:** [https://github.com/sctg-development/ai-outlook](https://github.com/sctg-development/ai-outlook)
 
-**Deployed Add-in:** [https://outlook.addin.pp.ua/](https://outlook.addin.pp.ua/manifest.json)
-**Deployed Add-in (GitHub Pages):** [https://sctg-development.github.io/ai-outlook](https://sctg-development.github.io/ai-outlook)
+**Deployed Add-in (GitHub Pages):** [https://eltorio.github.io/ai-outlook](https://eltorio.github.io/ai-outlook)
 
 ## Features
 
