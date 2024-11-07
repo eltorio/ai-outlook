@@ -10,7 +10,7 @@ export const config: AIConfig = {
       baseUrl: "https://api.groq.com",
       basePath: "/openai/v1",
       apiKey: "groqKey",
-      aiproxied: true,
+      aiproxied: false,
       models: [
         {
           id: "llama-3.2-90b-text-preview",
@@ -88,44 +88,6 @@ export const config: AIConfig = {
           id: "llama3-8b-8192",
           name: "Llama3 8b (8192)",
           default: false,
-          max_tokens: 8192,
-        },
-      ],
-    },
-    {
-      default: false,
-      name: "SambaNovaAI",
-      baseUrl: "https://api.sambanova.ai",
-      basePath: "/v1",
-      aiproxied: true,
-      apiKey: "sambanovaKey",
-      models: [
-        {
-          id: "Meta-Llama-3.1-405B-Instruct",
-          name: "Llama 3.1 (405B) - Instruct",
-          default: false,
-          max_tokens: 4096,
-        },
-        {
-          id: "Meta-Llama-3.1-8B-Instruct",
-          name: "Llama 3.1 (8B) - Instant",
-          default: true,
-          max_tokens: 8192,
-        },
-      ],
-    },
-    {
-      default: false,
-      name: "Nvidia NMI",
-      baseUrl: "https://integrate.api.nvidia.com",
-      basePath: "/v1",
-      apiKey: "nvidiaKey",
-      aiproxied: true,
-      models: [
-        {
-          id: "meta/llama-3.1-405b-instruct",
-          name: "Llama 3.1 (405 Instruct)",
-          default: true,
           max_tokens: 8192,
         },
       ],
