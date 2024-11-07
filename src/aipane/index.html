@@ -18,13 +18,13 @@
             replaceState: window.history.replaceState,
         };
         // Workaround for "ResizeObserver loop completed with undelivered notifications."
-        globalThis.backupResizeObserver = { ResizeObserver: window.ResizeObserver };
-        window.ResizeObserver = class ResizeObserver {
-            ResizeObserver() { };
-            observe() { };
-            unobserve() { };
-            disconnect() { };
-        };
+        // globalThis.backupResizeObserver = { ResizeObserver: window.ResizeObserver };
+        // window.ResizeObserver = class ResizeObserver {
+        //     ResizeObserver() { };
+        //     observe() { };
+        //     unobserve() { };
+        //     disconnect() { };
+        // };
     </script>
     <!-- Office JavaScript API -->
     <script type="text/javascript" src="https://appsforoffice.microsoft.com/lib/1.1/hosted/office.js"></script>
